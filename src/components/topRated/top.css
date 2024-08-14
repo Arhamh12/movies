@@ -1,0 +1,48 @@
+.sec-name{
+    padding-left: 20px;
+    font-size: large;
+    padding-bottom: 10px;
+    color: white;
+    background-color: rgb(33,33,33);
+}
+
+.top-rated{
+    padding-top: 20px;
+    color: white;
+    background-color: rgb(33,33,33);
+    height: 100%;
+}
+.mainBody{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(33,33,33);
+    gap: 2vh;
+}
+.card{
+    width: 25vh;
+    border: none;
+    height: 30vh;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    background-color: rgb(33,33,33);
+}
+
+.card img{
+    border-radius: 30px;
+    width: 100%;
+    transition: transform 0.5s;
+    
+}
+.card img:hover{
+    transform: scale(1.1);
+}
+.rate{
+    display: flex;
+    padding: 10px;
+}
+.star{
+    padding-bottom: 5px;
+}
